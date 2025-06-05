@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulação de Classe e Elemento</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  
+</head>
+<body>
+  <div id="conteiner-form">
+    <form id="formulario" action="">
+      <h1 id="titulo">Lista de compras</h1>
+      <label for="nome">Produto:</label>
+      <input id="nome" type="text" placeholder="Produto" required><br>
+
+      <label for="quantidade">Quantidade:</label>
+      <input id="quantidade" type="number" placeholder="Quantidade" required><br>
+
+      <label for="preco">Preço:</label>
+      <input id="preco" type="text" placeholder="Preço" required>
+
+      <div id="botao">
+        <button id="btn" type="submit">Adicionar</button>
+      </div>
+    </form>
+  </div>
+  <br>
+  <div id="conteiner"><p id="valorTotal">Valor total: R$ 0.00</p></div>
+</body>
+</html>
