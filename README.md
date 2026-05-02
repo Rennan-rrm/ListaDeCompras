@@ -55,7 +55,7 @@ https://lista-de-compras-six-orcin.vercel.app/
 ### 🔹 Opção 2 — Localmente
 
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Rennan-rrm/ListaDeCompras.git
 
 # Acesse a pasta
 cd lista-de-compras
